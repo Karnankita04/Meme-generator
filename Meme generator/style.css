@@ -1,0 +1,55 @@
+body{
+    background-color:beige;
+}
+
+.meme-generator{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+.meme-generator button{
+    font-family: 'Pacifico', cursive;
+}
+
+.meme-generator img{
+    height: 430px ;
+    object-fit: cover;
+}
+
+.btn{
+    padding: 20px;
+    margin: 30px;
+    font-size: 20px;
+    background-color: palevioletred;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    box-shadow:  0 0 6px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.btn:hover{
+    background-color: brown;
+    padding: 20px 40px;
+    letter-spacing: 3px;
+}
+
+.meme-generator .author-name{
+    margin: 8px;
+}
+
+@media screen and (max-width: 768px) {
+    .meme-generator {
+      padding: 20px;
+    }
+    .image {
+      width: 45%;
+    }
+  }
+
+
+  @media screen and (max-width: 480px) {
+    .image {
+      width: 100%;
+    }
+  }
